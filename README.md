@@ -1,8 +1,40 @@
-# React + Vite
+# Aaj ka mousam - Priya Vishwakarma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a web application displaying the current weather details like
 
-Currently, two official plugins are available:
+* current temperature
+* what it feels like
+* the appropriate icon matching with weather
+* humidity
+* wind speed
+* wind direction
+* minimum temperature
+* maximum temperature
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+and also the temperature of future 4-5 days in the timezone of 12:00
+
+# Run Locally
+
+  git clone https://github.com/priya940/weatherApp.git <br/>
+  cd weatherapp <br/>
+  npm install <br/>
+  npm run dev <br/>
+
+# API Reference
+
+used openweathermap api
+
+* current temperature details: https://openweathermap.org/current
+
+* future temperature details: https://openweathermap.org/forecast5
+
+# Tech Stack
+
+Client: React, TailwindCSS
+
+Deploy Link: https://aajkaamousam.netlify.app
+
+Project Link: https://github.com/priya940/weatherapp
+
+
+
